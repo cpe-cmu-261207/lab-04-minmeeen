@@ -49,7 +49,7 @@ function showTasks() {
 // function doneTask(index) {
 
 // }
-
+ 
 // delete task function
 function deleteTask(index) {
     let getLocalStorageData = localStorage.getItem("New Todo");
