@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    min-height: 100vh;
+}
+
+header{
+    font-size: 90px;
+    text-align: center;
+}
+
+.wrapper{
+    background: #fff;
+    max-width: 950px;
+    width: 100%;
+    margin: 120px auto;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+
+.wrapper .inputField{
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    height: 45px;
+  }
+
+.inputField{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inputField input, 
+.inputField button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+}
+
+.inputField button{
+    color: chartreuse;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.inputField button:hover{
+    background: chartreuse;
+    color: #fff;
+}
+
+.todoList{
+    min-width: 30%;
+    list-style: none;
+    align-items: center;
+}
+
+.todoList li{
+    font-size: 30px;
+    text-align: center;
+}
