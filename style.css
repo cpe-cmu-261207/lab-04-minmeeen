@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: linear-gradient(120deg,rgb(110, 20, 194),rgb(207, 82, 201));
+    background-image:url(https://images6.alphacoders.com/735/735997.jpg);
     color: rgb(255, 255, 255);
     /* color: rgb(207, 82, 201); */
     min-height: 100vh;
@@ -86,6 +86,8 @@ header{
     width: 500px;
     height: 80px; */
     align-items: center;
+    height: 55px;
+    box-shadow: 0px 10px 15px rgba(36, 35, 35, 0.1);
     
 }
 
@@ -125,6 +127,7 @@ header{
     align-items: center;
     margin-left: 350px;
     margin-right: 350px;
+    
 }
 .doneList li{
     margin: 0.5rem;
@@ -135,6 +138,7 @@ header{
     justify-content: space-between;
     align-items: center;
     transition: all 0.5s ease;
+    border-radius: 5px 5px 5px 5px;
 }
 .done{
     margin: 0.5rem;
@@ -171,7 +175,7 @@ header{
     width: 150px;
     cursor: pointer;
     font-size: 1rem;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     /* border-radius: 0px 5px 5px 0px; */
 }
 /* .trash-btn{
@@ -187,6 +191,7 @@ header{
     height: 70px;
     width: 150px;
     opacity: 0;
+    transition: all 0.5s ease;
 }
 
 /* .complete-btn{
@@ -201,6 +206,7 @@ header{
     height: 70px;
     width: 150px;
     opacity: 0;
+    transition: all 0.5s ease;
 }
 
 
