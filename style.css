@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image:url(https://images6.alphacoders.com/735/735997.jpg);
+    background-image: url('https://images6.alphacoders.com/735/735997.jpg');
     color: rgb(255, 255, 255);
     /* color: rgb(207, 82, 201); */
     min-height: 100vh;
@@ -14,7 +14,7 @@ body{
 
 header{
     background-color: rgb(0, 0, 0);
-    font-size: 90px;
+    font-size: 75px;
     text-align: center;
 }
 
