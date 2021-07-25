@@ -61,8 +61,9 @@ function showTasks() {
     trashButton.classList.add("trash-btn");
     todoDiv.appendChild(trashButton);
 
-    todoList.appendChild(todoDiv);
+    // todoList.append.Child(todoDiv);
 
+    todoList.insertBefore(todoDiv, todoList.firstChild);
     inputBox.value = "";
 
 }
