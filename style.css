@@ -102,7 +102,11 @@ header{
     cursor: pointer;
     /* overflow: hidden; */
 }
-
+.todo:hover button{
+    opacity: 1;
+    cursor: pointer;
+    
+}
 .todo li{
     flex: 1;
 }
@@ -171,31 +175,33 @@ header{
     transition: all 0.3s ease;
     border-radius: 0px 5px 5px 0px;
 }
-.trash-btn{
+/* .trash-btn{
     background: rgb(255, 255, 255);
     color: #fff;
     border-radius: 0px 5px 5px 0px;
-}
+} */
 
-.trash-btn:hover{
+.trash-btn{
     background: rgb(207, 27, 27);
     color: #fff;
     border-radius: 0px 5px 5px 0px;
     height: 70px;
     width: 150px;
+    opacity: 0;
 }
 
-.complete-btn{
+/* .complete-btn{
     background: rgb(255, 255, 255);
     color: #fff;
     border-radius: 0px 5px 5px 0px;
-}
-.complete-btn:hover{
+} */
+.complete-btn{
     background: rgb(29, 202, 57);
     color: #fff;
     border-radius: 0px 5px 5px 0px;
     height: 70px;
     width: 150px;
+    opacity: 0;
 }
 
 
