@@ -1,5 +1,3 @@
-// เหลือ แสดงinput first
-
 
 // getting all required elements
 const inputBox = document.querySelector(".inputField input");
@@ -28,9 +26,8 @@ addBtn.onclick = () => {
 
 }
 
-
 todoList.addEventListener("click", deleteCheck);
-// toBtn.addEventListener("click", deleteBtn);
+
 
 function showTasks() {
     //event.preventDefault();
@@ -67,6 +64,7 @@ function showTasks() {
     inputBox.value = "";
 
 }
+
 
 
 function deleteCheck(e) {
